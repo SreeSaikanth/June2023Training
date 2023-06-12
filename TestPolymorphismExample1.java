@@ -2,9 +2,9 @@ import java.util.Scanner;
 class PolymorphismExample1
 {
 void print(){System.out.println("Welcome");}
-void print(String n){System.out.println("Welcome ");}
+void print(String n){System.out.println("Welcome "+n);}
 }//pmp
-class Test{
+class TestPolymorphismExample1{
 public static void main(String args[])
 {
 PolymorphismExample1 ob1=new PolymorphismExample1();
